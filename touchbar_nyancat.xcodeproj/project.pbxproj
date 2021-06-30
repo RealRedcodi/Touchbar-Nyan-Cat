@@ -25,7 +25,7 @@
 		6141C6BA268BFCB90069ADB4 /* Nyan Cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Nyan Cat.png"; path = "../../../../Pictures/Nyan Cat.png"; sourceTree = "<group>"; };
 		A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_volume_off_3x.png; sourceTree = "<group>"; };
 		A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_volume_up_3x.png; sourceTree = "<group>"; };
-		A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchbar_nyancat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A362A1021DCE6D6B00737197 /* Touchbar Nyancat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touchbar Nyancat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A362A1051DCE6D6B00737197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A362A1071DCE6D6B00737197 /* NyanCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyanCatViewController.swift; sourceTree = "<group>"; };
 		A362A1091DCE6D6B00737197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		A362A1031DCE6D6B00737197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */,
+				A362A1021DCE6D6B00737197 /* Touchbar Nyancat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A362A1011DCE6D6B00737197 /* touchbar_nyancat */ = {
+		A362A1011DCE6D6B00737197 /* Touchbar Nyancat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_nyancat" */;
+			buildConfigurationList = A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "Touchbar Nyancat" */;
 			buildPhases = (
 				A362A0FE1DCE6D6B00737197 /* Sources */,
 				A362A0FF1DCE6D6B00737197 /* Frameworks */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = touchbar_nyancat;
+			name = "Touchbar Nyancat";
 			productName = touchbar_nyancat;
-			productReference = A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */;
+			productReference = A362A1021DCE6D6B00737197 /* Touchbar Nyancat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A362A1011DCE6D6B00737197 /* touchbar_nyancat */,
+				A362A1011DCE6D6B00737197 /* Touchbar Nyancat */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -306,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -323,6 +323,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "space.redcodi.touchbar-nyancat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -339,6 +340,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "space.redcodi.touchbar-nyancat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -357,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_nyancat" */ = {
+		A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "Touchbar Nyancat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A362A1121DCE6D6B00737197 /* Debug */,
