@@ -16,7 +16,6 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate, NSWindowDele
   @objc var audio_player: AVAudioPlayer?
   
     @IBOutlet weak var muteBtn: NSButton!
-  //NOTE: I fucking love Swift's computed properties!
   @objc var sound: Bool = true {
     
     didSet{
