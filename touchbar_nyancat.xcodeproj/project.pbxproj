@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6141C6BB268BFCB90069ADB4 /* Nyan Cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6141C6BA268BFCB90069ADB4 /* Nyan Cat.png */; };
 		A34053A21DCF56600081ABF1 /* ic_volume_off_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */; };
 		A34053A41DCF56640081ABF1 /* ic_volume_up_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */; };
 		A362A1061DCE6D6B00737197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362A1051DCE6D6B00737197 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6141C6BA268BFCB90069ADB4 /* Nyan Cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Nyan Cat.png"; path = "../../../../Pictures/Nyan Cat.png"; sourceTree = "<group>"; };
 		A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_volume_off_3x.png; sourceTree = "<group>"; };
 		A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_volume_up_3x.png; sourceTree = "<group>"; };
 		A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchbar_nyancat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 		A3826CD61DCE73EA00B7C41E /* img */ = {
 			isa = PBXGroup;
 			children = (
+				6141C6BA268BFCB90069ADB4 /* Nyan Cat.png */,
 				F3D5DE851F8AE11900AD4767 /* icon.png */,
 				A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */,
 				A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D5DE881F8AE20700AD4767 /* AppIcon.icns in Resources */,
+				6141C6BB268BFCB90069ADB4 /* Nyan Cat.png in Resources */,
 				F3D5DE861F8AE13A00AD4767 /* icon.png in Resources */,
 				F3D5DE841F8AE06D00AD4767 /* nyan_music.mp3 in Resources */,
 				A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */,
