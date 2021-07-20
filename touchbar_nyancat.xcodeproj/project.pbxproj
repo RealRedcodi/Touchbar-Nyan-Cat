@@ -17,7 +17,6 @@
 		A3826CDA1DCE79B900B7C41E /* NyanCatCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */; };
 		A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */; };
 		F3D5DE841F8AE06D00AD4767 /* nyan_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3D5DE831F8AE00200AD4767 /* nyan_music.mp3 */; };
-		F3D5DE861F8AE13A00AD4767 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D5DE851F8AE11900AD4767 /* icon.png */; };
 		F3D5DE881F8AE20700AD4767 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F3D5DE871F8AE1FD00AD4767 /* AppIcon.icns */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NyanCatCanvas.swift; sourceTree = "<group>"; };
 		A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NyanCatCanvas.xib; sourceTree = "<group>"; };
 		F3D5DE831F8AE00200AD4767 /* nyan_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nyan_music.mp3; sourceTree = "<group>"; };
-		F3D5DE851F8AE11900AD4767 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		F3D5DE871F8AE1FD00AD4767 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				6141C6BA268BFCB90069ADB4 /* Nyan Cat.png */,
-				F3D5DE851F8AE11900AD4767 /* icon.png */,
 				A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */,
 				A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */,
 			);
@@ -164,7 +161,6 @@
 			files = (
 				F3D5DE881F8AE20700AD4767 /* AppIcon.icns in Resources */,
 				6141C6BB268BFCB90069ADB4 /* Nyan Cat.png in Resources */,
-				F3D5DE861F8AE13A00AD4767 /* icon.png in Resources */,
 				F3D5DE841F8AE06D00AD4767 /* nyan_music.mp3 in Resources */,
 				A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */,
 				A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */,
@@ -323,7 +319,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "space.redcodi.touchbar-nyancat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -340,7 +336,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "space.redcodi.touchbar-nyancat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
